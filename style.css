@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+  --dark-gray: #141529;
+  --gray: #1b203a;
+  --light-gray: #242841;
+  --purple: #4462ec;
+  --pink: #ff6e91;
+  --orange: #f09755;
+  --white: #ffffff;
+}
+
+nav {
+  width: 250px;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-gray);
+  display: flex;
+  align-items: center;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: var(--white);
+  padding-top: 40px;
+}
+
+.navLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.menuGroup {
+  color: var(--light-gray);
+}
+
+.firstGroup {
+  margin-top: 80px;
+  color: var(--white);
+  justify-content: left;
+}
+
+.navIcon {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.homeGroup {
+  margin-top: 10px;
+}
+
+#version {
+  bottom: 140px;
+  position: absolute;
+  color: var(--white);
+}
+
+.musicPlayer {
+  width: 100vw;
+  height: 100px;
+  background-color: var(--light-gray);
+}
+
+/* --------------- 404.html --------------------*/
+
+.Fourpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: var(--white);
+}
+
+.Fourh1 {
+  margin-bottom: 20px;
+  font-size: 82px;
+}
+
+.Fourh2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Fourimage {
+  max-width: 75vw;
+}
+
+.Fourbtn {
+  margin-top: 20px;
+  color: var(--white);
+}
