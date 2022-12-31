@@ -41,8 +41,8 @@
       <div class="firstGroup">
         <span class="menuGroup">MENU</span>
         <a href="index.html">
-          <div class="homeGroup">
-            <i class="fa-solid fa-house navIcon"></i>
+          <div class="homeGroup purple">
+            <i class="fa-solid fa-house navIcon purple"></i>
             Home
           </div>
         </a>
@@ -52,13 +52,13 @@
             Explore
           </div>
         </a>
-        <a href="https://www.VernFM.com" target="_blank">
+        <a href="https://radio.VernFM.com" target="_blank">
           <div class="homeGroup">
             <i class="fa-solid fa-radio navIcon"></i>
             Radio
           </div>
         </a>
-        <a href="changelog.html">
+        <a href="https://www.VernFM.com/blog.html" target="_blank">
           <div class="homeGroup">
             <i class="fa-solid fa-clipboard-list navIcon"></i>
             Changelog
@@ -67,7 +67,53 @@
       </div>
       <span id="version">Alpha verison: 0.0.1</span>
     </nav>
-    <div class="musicPlayer"></div>
+    <div class="mainContent">
+      <div class="mainText">
+        <h1>This website is currently in development!</h1>
+        <span class="purple mainTitle">What does this mean for you?</span>
+        <p>
+          It means that you may encounter some bugs or have a limited experience
+          while using it. We apologize for any inconvenience this may cause and
+          appreciate your patience as we work to improve the website. Feel free
+          to follow the development in
+          <a href="https://VernFM.com/blog.html" target="_blank" class="purple"
+            >CHANGELOG</a
+          >.
+        </p>
+      </div>
+    </div>
+    <div class="musicPlayer">
+      <div class="playingSong">
+        <img id="playingAlbumImage" src="./media/album1.jpg" alt="Album1" />
+        <div class="playingAlbumText">
+          <span>Song 1</span>
+          <span>VernFM</span>
+        </div>
+      </div>
+      <div class="playingBarGroup">
+        <div class="playingBarIcons">
+          <i class="fa-solid fa-shuffle playbar"></i>
+          <i class="fa-solid fa-backward playbar"></i>
+          <i class="fa-solid fa-play playbar"></i>
+          <i class="fa-solid fa-forward playbar"></i>
+          <i class="fa-solid fa-repeat playbar"></i>
+        </div>
+        <div class="playingBarTime">
+          0:01
+          <div class="playingBar"></div>
+          2:34
+        </div>
+      </div>
+      <div class="volumeGroup">
+        <div class="volumeBar">
+          <div class="volumeBar"></div>
+        </div>
+        <div class="shareButton">
+          <i class="fa-solid fa-share playingShareButton"></i>
+          Share song
+        </div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
