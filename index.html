@@ -23,6 +23,12 @@
       gtag('config', 'G-C43RNKS48W');
     </script>
     <!-- Google analytics -->
+    <!-- Ezoic Code -->
+    <script>
+      var ezoicId = 419666;
+    </script>
+    <script type="text/javascript" src="//go.ezoic.net/ezoic/ezoic.js"></script>
+    <!-- Ezoic Code -->
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/7799275d96.js"
@@ -31,86 +37,1425 @@
     <!-- Font awesome -->
   </head>
   <body>
-    <nav>
-      <a href="index.html">
-        <div class="headerText">
-          <img class="navLogo" src="./media/logo.webp" alt="VernFM logo" />
-          VernFM
-        </div>
-      </a>
-      <div class="firstGroup">
-        <span class="menuGroup">MENU</span>
+    <!-- Home page -->
+    <div id="indexHTML">
+      <nav>
         <a href="index.html">
-          <div class="homeGroup purple">
-            <i class="fa-solid fa-house navIcon purple"></i>
-            Home
+          <div class="headerText">
+            <img class="navLogo" src="./media/logo.webp" alt="VernFM logo" />
+            VernFM
           </div>
         </a>
-        <a href="explore.html">
-          <div class="homeGroup">
-            <i class="fa-solid fa-compass navIcon"></i>
-            Explore
-          </div>
-        </a>
-        <a href="https://radio.VernFM.com" target="_blank">
-          <div class="homeGroup">
-            <i class="fa-solid fa-radio navIcon"></i>
-            Radio
-          </div>
-        </a>
-        <a href="https://www.VernFM.com/blog.html" target="_blank">
-          <div class="homeGroup">
-            <i class="fa-solid fa-clipboard-list navIcon"></i>
-            Changelog
-          </div>
-        </a>
+        <div class="firstGroup">
+          <span class="menuGroup">MENU</span>
+          <a id="indexBUTTON">
+            <div class="homeGroup purple">
+              <i class="fa-solid fa-house navIcon purple"></i>
+              Home
+            </div>
+          </a>
+          <a id="exploreBUTTON">
+            <div class="homeGroup">
+              <i class="fa-solid fa-compass navIcon"></i>
+              Explore
+            </div>
+          </a>
+          <a href="https://radio.VernFM.com" target="_blank">
+            <div class="homeGroup">
+              <i class="fa-solid fa-radio navIcon"></i>
+              Radio
+            </div>
+          </a>
+          <a href="https://www.VernFM.com/blog.html" target="_blank">
+            <div class="homeGroup">
+              <i class="fa-solid fa-clipboard-list navIcon"></i>
+              Changelog
+            </div>
+          </a>
+        </div>
+        <span id="version">Alpha verison: 0.0.1</span>
+      </nav>
+      <div class="mainContent">
+        <div class="mainText">
+          <h1>This website is currently in development!</h1>
+          <span class="purple mainTitle">What does this mean for you?</span>
+          <p>
+            It means that you may encounter some bugs or have a limited
+            experience while using it. We apologize for any inconvenience this
+            may cause and appreciate your patience as we work to improve the
+            website. Feel free to follow the development in
+            <a
+              href="https://VernFM.com/blog.html"
+              target="_blank"
+              class="purple"
+              >CHANGELOG</a
+            >.
+          </p>
+        </div>
       </div>
-      <span id="version">Alpha verison: 0.0.1</span>
-    </nav>
-    <div class="mainContent">
-      <div class="mainText">
-        <h1>This website is currently in development!</h1>
-        <span class="purple mainTitle">What does this mean for you?</span>
-        <p>
-          It means that you may encounter some bugs or have a limited experience
-          while using it. We apologize for any inconvenience this may cause and
-          appreciate your patience as we work to improve the website. Feel free
-          to follow the development in
-          <a href="https://VernFM.com/blog.html" target="_blank" class="purple"
-            >CHANGELOG</a
-          >.
-        </p>
+      <div class="musicPlayer">
+        <div class="playingSong">
+          <img id="playingAlbumImage" src="./media/album1.jpg" alt="Album1" />
+          <div class="playingAlbumText">
+            <span>Song 1</span>
+            <span>VernFM</span>
+          </div>
+        </div>
+        <div class="playingBarGroup">
+          <div class="playingBarIcons">
+            <i class="fa-solid fa-shuffle playbar"></i>
+            <i class="fa-solid fa-backward playbar"></i>
+            <i class="fa-solid fa-play playbar"></i>
+            <i class="fa-solid fa-forward playbar"></i>
+            <i class="fa-solid fa-repeat playbar"></i>
+          </div>
+          <div class="playingBarTime">
+            0:01
+            <div class="playingBar"></div>
+            2:34
+          </div>
+        </div>
+        <div class="volumeGroup">
+          <div class="volumeBar">
+            <div class="volumeBar"></div>
+          </div>
+          <div class="shareButton">
+            <i class="fa-solid fa-share playingShareButton"></i>
+            Share song
+          </div>
+        </div>
       </div>
     </div>
-    <div class="musicPlayer">
-      <div class="playingSong">
-        <img id="playingAlbumImage" src="./media/album1.jpg" alt="Album1" />
-        <div class="playingAlbumText">
-          <span>Song 1</span>
-          <span>VernFM</span>
+    <!-- Explore page -->
+    <div id="exploreHTML">
+      <nav>
+        <a href="index.html">
+          <div class="headerText">
+            <img class="navLogo" src="./media/logo.webp" alt="VernFM logo" />
+            VernFM
+          </div>
+        </a>
+        <div class="firstGroup">
+          <span class="menuGroup">MENU</span>
+          <a id="indexBUTTON" href="">
+            <div class="homeGroup">
+              <i class="fa-solid fa-house navIcon"></i>
+              Home
+            </div>
+          </a>
+          <a id="exploreBUTTON">
+            <div class="homeGroup purple">
+              <i class="fa-solid fa-compass navIcon purple"></i>
+              Explore
+            </div>
+          </a>
+          <a href="https://radio.VernFM.com" target="_blank">
+            <div class="homeGroup">
+              <i class="fa-solid fa-radio navIcon"></i>
+              Radio
+            </div>
+          </a>
+          <a href="https://www.VernFM.com/blog.html" target="_blank">
+            <div class="homeGroup">
+              <i class="fa-solid fa-clipboard-list navIcon"></i>
+              Changelog
+            </div>
+          </a>
+        </div>
+        <span id="version">Alpha verison: 0.0.1</span>
+      </nav>
+      <div class="exploreContent">
+        <div class="songs">
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <div class="songBackground">
+              <img
+                id="albumImage"
+                src="./media/album1.jpg"
+                alt="Album1 image"
+              />
+            </div>
+            <div class="songText">
+              <span>False Alarm</span>
+              <span>Connor Price</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="playingBarGroup">
-        <div class="playingBarIcons">
-          <i class="fa-solid fa-shuffle playbar"></i>
-          <i class="fa-solid fa-backward playbar"></i>
-          <i class="fa-solid fa-play playbar"></i>
-          <i class="fa-solid fa-forward playbar"></i>
-          <i class="fa-solid fa-repeat playbar"></i>
+      <div class="musicPlayer">
+        <div class="playingSong">
+          <img id="playingAlbumImage" src="./media/album1.jpg" alt="Album1" />
+          <div class="playingAlbumText">
+            <span>Song 1</span>
+            <span>VernFM</span>
+          </div>
         </div>
-        <div class="playingBarTime">
-          0:01
-          <div class="playingBar"></div>
-          2:34
+        <div class="playingBarGroup">
+          <div class="playingBarIcons">
+            <i class="fa-solid fa-shuffle playbar"></i>
+            <i class="fa-solid fa-backward playbar"></i>
+            <i class="fa-solid fa-play playbar"></i>
+            <i class="fa-solid fa-forward playbar"></i>
+            <i class="fa-solid fa-repeat playbar"></i>
+          </div>
+          <div class="playingBarTime">
+            0:01
+            <div class="playingBar"></div>
+            2:34
+          </div>
         </div>
-      </div>
-      <div class="volumeGroup">
-        <div class="volumeBar">
-          <div class="volumeBar"></div>
-        </div>
-        <div class="shareButton">
-          <i class="fa-solid fa-share playingShareButton"></i>
-          Share song
+        <div class="volumeGroup">
+          <div class="volumeBar">
+            <div class="volumeBar"></div>
+          </div>
+          <div class="shareButton">
+            <i class="fa-solid fa-share playingShareButton"></i>
+            Share song
+          </div>
         </div>
       </div>
     </div>
