@@ -9,13 +9,16 @@
 }
 
 :root {
-  --dark-gray: #141529;
-  --gray: #1b203a;
-  --light-gray: #242841;
+  --dark-gray: #10111a;
+  --gray: #12131a;
+  --gray2: #161924;
+  --light-gray: #3b3e58;
   --purple: #4462ec;
-  --pink: #ff6e91;
-  --orange: #f09755;
   --white: #ffffff;
+}
+
+body {
+  background-color: var(--dark-gray);
 }
 
 nav {
@@ -23,9 +26,22 @@ nav {
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  background-color: var(--dark-gray);
+  background-color: var(--gray);
   display: flex;
   align-items: center;
+  position: fixed;
+}
+
+.mainContent {
+  margin-left: 250px;
+  background-image: url(./media/landingBackground.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.mainText {
+  padding: 100px;
+  color: var(--white);
 }
 
 .headerText {
@@ -62,10 +78,11 @@ nav {
 
 .homeGroup {
   margin-top: 10px;
+  color: var(--white);
 }
 
 #version {
-  bottom: 140px;
+  bottom: 40px;
   position: absolute;
   color: var(--white);
 }
@@ -73,18 +90,175 @@ nav {
 .musicPlayer {
   width: 100vw;
   height: 100px;
+  background-color: var(--gray2);
+  position: fixed;
+  bottom: 0;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.mainTitle {
+  font-weight: 600;
+}
+
+p {
+  margin-top: 20px;
+  max-width: calc(50vw);
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+/* --------------- explore.html --------------------*/
+
+.exploreContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  height: calc(100vh + 100%);
+  margin-left: 250px;
+  padding-bottom: 100px;
+}
+
+.songBackground {
+  background-color: var(--purple);
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.songs {
+  padding: 50px;
+  display: block;
+  flex-direction: row;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+.songText {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.songText :nth-child(2) {
+  color: var(--light-gray);
+}
+
+#albumImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 100vw) {
+  .song {
+    padding-top: 50px;
+  }
+}
+
+/* --------------- Playing bar --------------------*/
+
+.musicPlayer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.playingSong {
+  display: flex;
+  flex-direction: row;
+}
+
+#playingAlbumImage {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.playingAlbumText {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 20px;
+  color: var(--white);
+}
+
+.playingAlbumText :nth-child(2) {
+  color: var(--light-gray);
+}
+
+.playingBarGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+}
+
+.playingBarTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.playingBarIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+
+.playingBar {
+  width: 70vw;
+  height: 10px;
   background-color: var(--light-gray);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.playbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.shareButton {
+  color: var(--white);
+}
+
+.playingShareButton {
+  padding-right: 10px;
 }
 
 /* --------------- 404.html --------------------*/
 
 .Fourpage {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   color: var(--white);
+  overflow-wrap: break-word;
 }
 
 .Fourh1 {
